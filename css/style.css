@@ -8,6 +8,113 @@
 	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
 */
 
+/*advistise*/
+.sidenav{
+
+    width: 150px;
+    height: 400px;
+    position: fixed;
+    z-index: 2;
+    background: #eee;
+    top:30%;
+	right: 0%
+}
+
+.navleft{
+
+	width: 150px;
+    height: 400px;
+    position: fixed;
+    z-index: 2;
+    background: #eee;
+    top:30%;
+	left: 0%
+
+}
+
+button.CloseButton 
+{
+	position: absolute;
+	bottom:0%;
+	left:0%;
+	color: #808080;
+	font-size:10px;
+	padding: 5px 5px;
+	background-color:Transparent;
+	outline:none;
+	border:none;
+
+}
+
+
+#body2
+{
+	background-color: #fff;
+	background-position: relative;
+}
+.TempleBox h2{
+ 	color: #000;
+	text-align: center;
+}
+
+#body1{
+
+	background-color: #000;
+	background-size:cover;
+	background-image: url("../images/11FSSLighthouse2.jpg");
+	background-position: relative;
+	background-repeat: no-repeat;
+	background-position:center;
+}
+.loginpage{
+	width:30%;
+	padding : 10% 0 0;
+	margin: auto;
+}
+
+.form{
+	position:middle;
+	z-index: 1;
+	max-width: 360px;
+	background-color: #fff;
+	margin: 0 auto 100 px;
+	padding:45px;
+	text-align: center;
+}
+.form input{
+	outline:1;
+	background:#f2f2f2;
+	width :100%;
+	margin:10px;
+	padding: 10px 10px;
+	border:0;
+	box-sizing: border-box;
+	font-size: 11px;
+}
+
+.form button {
+	font-family: "Roboto", sans-serif;
+	text-transform: uppercase;
+	background: #4CAF50;
+	width:100%;
+	font-size: 14px;
+	padding:15px;
+	color: #fff;
+
+}
+.form input[type=text], select, input[type=tel],input[type=submit],input[type=email],input[type=date],input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.form table {
+	border-spacing:2px;
+}
+
 /* Basic */
 
 	body {
@@ -196,11 +303,11 @@ f
 
 /* Form */
 
-	form {
+/*	form {
 		margin: 0 0 2em 0;
-	}
+	}*/
 
-	label {
+/*/*	label {
 		color: #666f77;
 		display: block;
 		font-size: 0.9em;
@@ -211,7 +318,6 @@ f
 	input[type="text"],
 	input[type="password"],
 	input[type="email"],
-	select,
 	textarea {
 		-moz-appearance: none;
 		-webkit-appearance: none;
@@ -283,11 +389,11 @@ f
 	input[type="text"],
 	input[type="password"],
 	input[type="email"],
-	select {
+	/*select {
 		height: 2.75em;
-	}
+	}*/
 
-	textarea {
+	/*textarea {
 		padding: 0.75em 1em;
 	}
 
@@ -349,6 +455,7 @@ f
 		input[type="radio"]:checked + label:before {
 			background: #192024;
 			border-color: #192024;
+
 			color: #ffffff;
 			content: '\f00c';
 		}
@@ -391,7 +498,7 @@ f
 		color: #bbb !important;
 		opacity: 1.0;
 	}
-
+*/
 /* Box */
 
 	.box {
@@ -619,7 +726,7 @@ f
 		overflow-x: auto;
 	}
 
-	table {
+	/*table {
 		margin: 0 0 2em 0;
 		width: 100%;
 	}
@@ -678,7 +785,7 @@ f
 
 			table.alt tfoot {
 				border-top: 0;
-			}
+			}*/
 
 /* Button */
 
@@ -772,7 +879,7 @@ f
 		input[type="reset"].alt,
 		input[type="button"].alt,
 		.button.alt {
-			background-color: transparent;
+			background-color: #E82F2E;
 			box-shadow: inset 0 0 0 1px rgba(144, 144, 144, 0.25);
 			color: #666f77 !important;
 		}
@@ -781,14 +888,14 @@ f
 			input[type="reset"].alt:hover,
 			input[type="button"].alt:hover,
 			.button.alt:hover {
-				background-color: rgba(144, 144, 144, 0.075);
+				background-color: #EE7579;
 			}
 
 			input[type="submit"].alt:active,
 			input[type="reset"].alt:active,
 			input[type="button"].alt:active,
 			.button.alt:active {
-				background-color: rgba(144, 144, 144, 0.2);
+				background-color: #4e91cb;
 			}
 
 			input[type="submit"].alt.icon:before,
@@ -882,7 +989,7 @@ f
 	}
 
 	#header {
-		back ground: #000;
+		background: #000;
 		color: #555f66;
 		cursor: default;
 		height: 3em;
@@ -977,20 +1084,17 @@ f
 
 /* Banner */
 
-
-
-
 	#banner {
 		background-color: #000;
-		background-image: url("../images/lighthouse1.jpg");
-		background-size:cover;
-		background-position: left top;
+		background-image: url("../images/11FSSLighthouse4.jpg");
+		background-size: cover;
+		background-position: center center;
 		background-repeat: no-repeat;
 		color: #000;
 		padding: 14em 0;
 		text-align: center;
 		position: relative;
-	}	
+	}
 
 		#banner:before {
 			content: '';
@@ -1111,30 +1215,6 @@ f
   0%{left:0}
   100%{left: -100%}
 }
-
-.marquee {
-  height: 30px;
-
-  overflow: hidden;
-  position: relative;
-}
-
-.marquee div {
-  display: block;
-  width: 200%;
-  height: 30px;
-  
-  position: absolute;
-  overflow: hidden;
-
-  -webkit-animation: marquee 4s linear infinite;
-  -moz-animation: marquee 4s linear infinite;
-  -ms-animation: marquee 4s linear infinite;
-  -o-animation: marquee 4s linear infinite;
-  animation: marquee 4s linear infinite;
-}
-
-
 /*Running Horse light*/
 .marquee {
 
@@ -1150,10 +1230,6 @@ f
 
 .scroll-left {
  height: 50px;	
- 
- margin: 0 auto;
-  top:100px;
-  
  overflow: hidden;
  position: relative;
 }
@@ -1211,3 +1287,7 @@ f
 
 
 */
+
+
+
+
