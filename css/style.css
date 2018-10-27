@@ -7,6 +7,10 @@
 	templated.co @templatedco
 	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
 */
+.test
+{
+	background: #192024;
+}
 .visainfo
 {
 	text-align: left;
@@ -892,6 +896,10 @@ f
 			background: #192024;
 			color: #c5c7c8;
 		}
+		.wrapper.style3 {
+			background: #f06d06;
+			color: #c5c7c8;
+		}
 
 			.wrapper.style2 h2, .wrapper.style2 h3, .wrapper.style2 h4, .wrapper.style2 h5, .wrapper.style2 h6 {
 				color: #ffffff;
@@ -925,7 +933,7 @@ f
 	}
 
 	#header {
-		back ground: #000;
+		background: #000;
 		color: #555f66;
 		cursor: default;
 		height: 3em;
@@ -1130,7 +1138,7 @@ f
 				}
 
 		#footer .icons a {
-			color: #bbb;
+			color: #000;
 		}
 
 		
